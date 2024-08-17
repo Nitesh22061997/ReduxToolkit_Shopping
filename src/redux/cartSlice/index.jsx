@@ -25,4 +25,4 @@ export const selectCartItem = (state) => state.cart.items
 export const selectCartTotalPrice = (state) => state.cart.totalPrice
 
 export const { addToCart, clearCart } = cartSlice.actions
-export default cartSlice.reducer
+export default cartSlice.reducer;
